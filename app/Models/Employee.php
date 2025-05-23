@@ -1,0 +1,12 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Employee extends Model
+{
+    //
+    protected $fillable=['name','email','address',"gender","phone_no","country","state","city","zip","photo","additonal_doc"];
+
+}
